@@ -64,18 +64,18 @@
 	//alert(' ancho :'+screen.width+' alto : '+screen.height);
 	//alert(navInfo+'-'+tipo);
 	if(tipo == 'mobile'){
-		window.location="http://manuelbdv.mitorneodepadel.es/mobile/index.php"+datos;
+		window.location="http://mitorneodepadel.manuelbdv.es/mobile/index.php"+datos;
 	}
 	else if(tipo == 'tablet'){
-		window.location="http://manuelbdv.mitorneodepadel.es/mobile/index.php"+datos;
-		//window.location="http://manuelbdv.mitorneodepadel.es/tablet/index.php";
+		window.location="http://mitorneodepadel.manuelbdv.es/mobile/index.php"+datos;
+		//window.location="http://mitorneodepadel.manuelbdv.es/tablet/index.php";
 	}
 	else{
 		if(navInfo.indexOf('trident/') != -1){//no soportado
-			window.location="http://manuelbdv.mitorneodepadel.es/web/nosoportado.php";
+			window.location="http://mitorneodepadel.manuelbdv.es/web/nosoportado.php";
 		}
 		else{
-			window.location="http://manuelbdv.mitorneodepadel.es/web/index.php";
+			window.location="http://mitorneodepadel.manuelbdv.es/web/index.php"+datos;
 		}
 		
 	}

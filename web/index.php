@@ -5,10 +5,12 @@ include_once ("funciones/f_general.php");
 include_once ("../class/mysql.php");
 session_destroy();
 session_start();
+
 $_SESSION['pagina'] = 'index';
 cabecera_inicio();
 $provincias = array();
 $provincias = obten_localizacionDistintasBds(numero_de_BDligas(),'provincia','liga','pais','ESP');
+
 ?>
 <link rel="stylesheet" type="text/css" href="css/index.css" />
 <link rel="stylesheet" type="text/css" href="css/pie.css" />
