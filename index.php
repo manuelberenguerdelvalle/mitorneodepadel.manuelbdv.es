@@ -75,7 +75,7 @@
 			window.location="http://mitorneodepadel.manuelbdv.es/web/nosoportado.php";
 		}
 		else{
-			window.location="http://mitorneodepadel.manuelbdv.es/web/index.php"+datos;
+			window.location="http://mitorneodepadel.manuelbdv.es/web/index.php";
 		}
 		
 	}
